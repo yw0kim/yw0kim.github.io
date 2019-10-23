@@ -72,10 +72,11 @@ var lightJekyllSearch = {
     {
         var results = [],
             toSearch = this.innerFunctions.trimString(toSearch);
+        toSearch = toSearch.toLowerCase();
 
         for ( var i = 0; i < posts.length; i++ ) {
             for ( var key in posts[i] ) {
-                if ( posts[i][key].indexOf(toSearch)!=-1 ) {
+                if ( posts[i][key].toLowerCase().indexOf(toSearch)!=-1 ) {
                     if ( !this.innerFunctions.itemExists(results, posts[i]) ) {
                         results.push(posts[i]);
                     }
