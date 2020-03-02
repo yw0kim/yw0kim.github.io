@@ -11,7 +11,7 @@ yum-utils를 사용해 yum 사용이 가능한 서버에서 해당 패키지를 
 ## 1. yum utils 설치
 
 ~~~bash
-# yum install yum utils -y
+yum install yum utils -y
 ~~~
 
 ## 2. 종속성 관련된 RPM 파일 다운로드
@@ -19,7 +19,7 @@ yum-utils를 사용해 yum 사용이 가능한 서버에서 해당 패키지를 
 아래 명령어를 수행하면 $DOWNLOAD_DIR에 $PACKAGE가 의존성이 있는 rpm 파일들이 다운로드 된다.
 
 ```bash
-# yumdownload --resolve --destdir=$DOWNLOAD_DIR $PACKAGE
+yumdownload --resolve --destdir=$DOWNLOAD_DIR $PACKAGE
 ```
 
 ## 3. RPM 설치할 서버로 옮겨 설치
@@ -27,5 +27,5 @@ yum-utils를 사용해 yum 사용이 가능한 서버에서 해당 패키지를 
 위에서 다운 받은 rpm 파일들을 설치 하고자하는 서버로 옮겨 설치한다.
 
 ```bash
-$ rpm -Uvh *.rpm
+rpm -Uvh *.rpm
 ```
