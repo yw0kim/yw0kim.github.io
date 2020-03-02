@@ -10,9 +10,9 @@ yum-utils를 사용해 yum 사용이 가능한 서버에서 해당 패키지를 
 
 ## 1. yum utils 설치
 
-```bash
+~~~bash
 # yum install yum utils -y
-```
+~~~
 
 ## 2. 종속성 관련된 RPM 파일 다운로드
 
