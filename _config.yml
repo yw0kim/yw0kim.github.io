@@ -26,6 +26,7 @@ navbar-links:
 #    - Learn markdown: "http://www.markdowntutorial.com/"
   Categories:
     - All: "/category/All"
+    - OS: "/category/OS"
     - category1: "/category/category1"
     - category2: "/category/category2"
     - Etc: "/category/Etc"

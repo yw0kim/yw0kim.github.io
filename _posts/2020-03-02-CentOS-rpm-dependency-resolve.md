@@ -29,3 +29,4 @@ yumdownload --resolve --destdir=$DOWNLOAD_DIR $PACKAGE
 ```bash
 rpm -Uvh *.rpm
 ```
+
