@@ -47,6 +47,6 @@ yum install \
 위에서 다운 받은 rpm 파일들을 설치 하고자하는 서버로 옮겨 설치한다.
 
 ```bash
-rpm -Uvh *.rpm
+yum localinstall --disablerepo=* $PACKAGE
 ```
 
