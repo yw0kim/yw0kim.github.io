@@ -28,6 +28,7 @@ navbar-links:
     - All: "/category/All"
     - OS: "/category/OS"
     - IoT: "/category/IoT"
+    - Media: "/category/Media"
     - Etc: "/category/Etc"
 # Author's home: "http://deanattali.com"
 

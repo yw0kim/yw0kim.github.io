@@ -4,6 +4,8 @@ title: Mosquitto Bridge 설정 하기 (mosquitto 이중화 흉내내기)
 category: IoT
 ---
 
+* 작성중인 포스트
+
 MQTT는 IoT 환경에서 사용하기 위한 가벼운 Msg queue Protocol.
 Mosquitto는 MQTT를 구현한 많은 구현체 중 하나로 오픈소스이다.
 이 포스트에서는 Mosquitto Broker가 여러 대인 경우 이중화를 고민하다가 생각해낸 방법이다.
